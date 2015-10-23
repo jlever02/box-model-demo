@@ -13,3 +13,7 @@ aside.highlight {
   margin:auto;
   border: 2px solid green;
 }
+a:hover {
+  color:red;
+  font-size:2em;
+}
