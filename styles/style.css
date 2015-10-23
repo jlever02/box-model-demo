@@ -1,19 +1,34 @@
-.highlight {
-  color:orange;
+body {
+  background-color:#000;
+  color:#fff;
+  width:100%;
 }
-
-/*No space means this applies to aside tags that have a class of highlight*/
-aside.highlight {
-  background-color: black;
-}
-
 /*Homepage styles*/
-#homePage {
-  width:80%;
-  margin:auto;
-  border: 2px solid green;
+
+h1:hover {
+  color:bisque;
 }
-a:hover {
-  color:red;
-  font-size:2em;
+a:visited {
+  text-decoration: none;
+  
+}
+header {
+  width:80%;
+  text-align:center;
+  margin:auto;
+  border:1px solid white;
+}
+article {
+  width:60%;
+  margin:auto;
+  border:1px solid blue;
+}
+p::first-letter {
+  font-size:1.2em;
+}
+footer {
+  border:1px solid red;
+  width:100%;
+  
+  
 }
